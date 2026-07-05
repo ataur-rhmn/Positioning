@@ -126,7 +126,7 @@ nav ul li {
   font-size: 18px;
   opacity: 75%;
 }
-.aboutPart .allabout .about p span {
+.about p span{
   color: white;
   font-weight: 700;
   font-size: 18px;
@@ -345,7 +345,7 @@ nav ul li {
   padding: 2vh;
   border-radius: 50%;
 }
-.footer{
+.footer {
   position: relative;
 }
 .footer .text {
@@ -357,6 +357,6 @@ nav ul li {
   font-size: 18px;
   font-weight: 400;
   opacity: 75%;
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 /* footerPart Css End */
