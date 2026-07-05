@@ -36,21 +36,24 @@ h2 span {
   background: #222831;
   border-bottom: 1px solid rgba(238, 238, 238, 0.1);
   position: fixed;
+  z-index: 9999;
 }
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 nav ul {
   display: flex;
-  justify-content: space-between;
   gap: 3vw;
 }
-nav ul li {
-  color: #eeeeee;
+nav ul li a{
+  color: #EEEEEE;
   font-weight: 400;
   font-size: 18px;
+}
+nav ul li a:hover{
+  color: #00adb5;
+  transition: 0.4s;
 }
 /* HeaderPart Css End */
 
@@ -327,7 +330,11 @@ nav ul li {
   font-weight: 400;
   color: #eeeeee;
   display: flex;
-  gap: 0.4gvw;
+  gap: 0.4vw;
+}
+.footerElements ul li a:hover {
+  color: #00adb5;
+  transition: 0.4s;
 }
 .footericon {
   margin-top: 8vh;
@@ -345,6 +352,11 @@ nav ul li {
   padding: 2vh;
   border-radius: 50%;
 }
+.footericon ul li a:hover{
+  background: #00adb5;
+  transition: 0.4s;
+}
+
 .footer {
   position: relative;
 }
@@ -358,5 +370,10 @@ nav ul li {
   font-weight: 400;
   opacity: 75%;
   color: #eeeeee;
+}
+.footer .text a:hover{
+  opacity: 100%;
+  color: #eeeeee;
+  transition: 0.4s;
 }
 /* footerPart Css End */
