@@ -1,0 +1,362 @@
+/* Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.container {
+  width: 88vw;
+  padding: 5vh 0;
+  margin: 0 auto;
+}
+body {
+  background: #222831;
+}
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+h2 span {
+  color: #00adb5;
+}
+/* Common Css End */
+
+/* HeaderPart Css Start */
+.headerPart {
+  width: 100vw;
+  background: #222831;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+  position: fixed;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 3vw;
+}
+nav ul li {
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 18px;
+}
+/* HeaderPart Css End */
+
+/* BannerPart Css Start */
+.banner {
+  display: flex;
+  position: relative;
+  padding: 33vh 0 40vh 0;
+}
+.banner .arrowImg {
+  position: absolute;
+  top: 55%;
+}
+.banner .txtbtn {
+  position: absolute;
+  left: 8%;
+  width: 40vw;
+}
+.txtbtn h1 {
+  color: white;
+  font-size: 96px;
+  font-weight: 700;
+}
+.txtbtn span {
+  color: #00adb5;
+}
+.txtbtn .btn {
+  margin-top: 4vh;
+}
+.hireBtn {
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #222831;
+  background: #393e46;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.cvBtn {
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #222831;
+  background: #393e46;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-left: 2vw;
+}
+
+.txtbtn a:hover {
+  background: #00adb5;
+  transition: 0.4s;
+}
+.banner .personimg {
+  position: absolute;
+  right: 0;
+}
+
+/* BannerPart Css End */
+
+/* AboutPart Css Start */
+.allabout {
+  padding: 80vh 0;
+  display: flex;
+  position: relative;
+}
+.allabout .about {
+  position: absolute;
+  width: 22vw;
+  left: 0;
+}
+.allabout .about p {
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 75%;
+}
+.aboutPart .allabout .about p span {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  opacity: 100%;
+}
+.allabout .img1 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.allabout .img2 {
+  position: absolute;
+  top: 38%;
+}
+.allabout .img3 {
+  position: absolute;
+  left: 30%;
+}
+.allabout .img4 {
+  position: absolute;
+  right: 0;
+}
+
+/* AboutPart Css End */
+
+/* ProjectPart Css End */
+.projectPage {
+  padding: 265px 0;
+  margin-top: 30vh;
+  background: url(../images/projectPage/projectsPage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.projectItems .btns {
+  margin-top: 5vh;
+}
+
+.projectItems .btns a {
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #222831;
+  background: #393e46;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-right: 1vw;
+}
+
+.projectItems .btns a:hover {
+  background: #00adb5;
+  transition: 0.4s;
+}
+
+.projectItems .projects {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7vh;
+}
+
+/* ProjectPart Css End */
+
+/* ideatxtPart Css Start */
+.ideaMsg {
+  padding: 258px 0 251px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.ideaMsg .idea {
+  width: 40%;
+  height: 560px;
+  position: relative;
+}
+.imge1 {
+  position: absolute;
+  right: 30%;
+  bottom: 0;
+  z-index: 3;
+}
+.imge2 {
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  z-index: 3;
+}
+.imge3 {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
+.imge4 {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+.imge5 {
+  position: absolute;
+  right: 28%;
+  bottom: -2%;
+  z-index: 2;
+}
+.imge6 {
+  position: absolute;
+  right: 28%;
+  bottom: 15%;
+}
+.ideaMsg .msg {
+  width: 60%;
+  height: 560px;
+  padding: 0 15vw;
+  position: relative;
+}
+.msg .image1 {
+  position: absolute;
+  bottom: -20%;
+  right: 20%;
+}
+.msg .image2 {
+  position: absolute;
+  top: -30%;
+  left: 20%;
+}
+.nameEmail {
+  display: flex;
+  gap: 2vw;
+}
+
+.box input {
+  padding: 1.5vh 2vw 1.5vh 1.5vh;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 1vh;
+  background: #393e46;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  color: #eeeeee;
+}
+.box label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+.txtArea {
+  margin-top: 5vh;
+}
+.txtArea label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeee;
+}
+.txtArea textarea {
+  margin-top: 1vh;
+  height: 50vh;
+  width: 39.3vw;
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeeeee;
+  border: none;
+  outline: none;
+  background: #393e46;
+  border-radius: 12px;
+  resize: none;
+  padding: 2vh 1vw;
+}
+.msgform form button {
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #222831;
+  background: #393e46;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-top: 3vh;
+  border: none;
+}
+
+.msgform form button:hover {
+  background: #00adb5;
+  transition: 0.4s;
+}
+
+/* ideatxtPart Css End */
+
+/* footerPart Css Start */
+.footerPart {
+  padding: 10vh;
+  border-top: 1px solid rgba(238, 238, 238, 0.1);
+}
+.footerElements {
+  display: flex;
+  justify-content: center;
+}
+.footerElements ul {
+  display: flex;
+  gap: 3vw;
+}
+.footerElements ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #eeeeee;
+  display: flex;
+  gap: 0.4gvw;
+}
+.footericon {
+  margin-top: 8vh;
+}
+.footericon ul {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+.footericon ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #eeeeee;
+  background: #393e46;
+  padding: 2vh;
+  border-radius: 50%;
+}
+.footer{
+  position: relative;
+}
+.footer .text {
+  position: absolute;
+  right: 0;
+  bottom: -50%;
+}
+.footer .text a {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 75%;
+  color: #EEEEEE;
+}
+/* footerPart Css End */
